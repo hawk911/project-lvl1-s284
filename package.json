@@ -1,0 +1,20 @@
+{
+  "name": "brain-games",
+  "version": "1.0.0",
+  "description": "project of Hexlet",
+  "main": "brain-games.js",
+  "bin" : { "brain-games" : ".src/bin/brain-games.js" },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hawk911/project-lvl1-s284.git"
+  },
+  "author": "Denis B.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hawk911/project-lvl1-s284/issues"
+  },
+  "homepage": "https://github.com/hawk911/project-lvl1-s284#readme"
+}
