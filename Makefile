@@ -9,3 +9,6 @@ install-deps:
 
 publish:
   npm publish
+
+lint:
+  npm run eslint
