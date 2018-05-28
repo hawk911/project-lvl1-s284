@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "project of Hexlet",
   "main": "brain-games.js",
-  "bin" : { "brain-games" : ".src/bin/brain-games.js" },
+  "bin": {
+    "brain-games": ".src/bin/brain-games.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/hawk911/project-lvl1-s284/issues"
   },
-  "homepage": "https://github.com/hawk911/project-lvl1-s284#readme"
+  "homepage": "https://github.com/hawk911/project-lvl1-s284#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
 }
