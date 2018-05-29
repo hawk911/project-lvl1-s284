@@ -62,3 +62,7 @@ typings/
 
 # dist from babel
 dist/
+
+# vscode
+.vscode/
+
