@@ -8,5 +8,6 @@ install:
   - npm install -g babel-eslint
   - npm install -g eslint-config-airbnb-base
   - npm install -g eslint-plugin-import
+  - npm install -g readline-sync
 script: 
   - make lint
