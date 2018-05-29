@@ -1,13 +1,6 @@
 language: node_js
 node_js:
-  - "8"
-install: 
-  - npm install -g eslint
-  - npm install -g eslint-config-airbnb
-  - npm install -g eslint-plugin-babel
-  - npm install -g babel-eslint
-  - npm install -g eslint-config-airbnb-base
-  - npm install -g eslint-plugin-import
-  - npm install -g readline-sync
-script: 
+  - node
+
+script:
   - make lint
