@@ -6,9 +6,7 @@ export const askName = () => {
   return userName;
 };
 
-const getRandomInt = (min, max) => {
-  return Math.round(Math.random() * (max - min)) + min;
-};
+const getRandomInt = (min, max) => Math.round(Math.random() * (max - min)) + min;
 const isEven = num => num % 2 === 0;
 const question = (num) => {
   const answer = readlineSync.question(`Question: ${num}\n`);
@@ -16,7 +14,7 @@ const question = (num) => {
   return answer;
 };
 
-export const brainEven = (num) => {
+export const brainEven = () => {
   const userName = askName();
   const countQuestions = 3;
   let countRightAnswersUser = 0;
