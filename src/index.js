@@ -16,7 +16,6 @@ export const brainEven = () => {
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello ${userName}!\n`);
 
-  let countRightAnswersUser = 0;
   for (let i = 0; i < countQuestions; i += 1) {
     const randomNumber = getRandomInt(1, 50);
     const answerUser = readlineSync.question(`Question: ${randomNumber}\n`);
@@ -24,14 +23,11 @@ export const brainEven = () => {
     const answerRight = isEven(randomNumber) ? 'yes' : 'no';
     if (answerUser === answerRight) {
       console.log('Correct!');
-      countRightAnswersUser += 1;
     } else {
       console.log(`${answerUser} is wrong answer ;(. Correct answer was ${answerRight}.`);
       console.log(`Let's try again, ${userName}`);
-      break;
+      return;
     }
   }
-  if (countQuestions === countRightAnswersUser) {
-    console.log(`Congratulations, ${userName}!`);
-  }
+  console.log(`Congratulations, ${userName}!`);
 };
