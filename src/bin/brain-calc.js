@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import { calc } from '..';
+import { brainCalc } from '..';
 
-calc();
+brainCalc();

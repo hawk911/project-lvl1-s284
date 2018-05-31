@@ -51,7 +51,7 @@ export const brainEven = () => {
   console.log(`Congratulations, ${userName}!`);
 };
 
-export const calc = () => {
+export const brainCalc = () => {
   greetingInfo('What is the result of the expression?');
   const userName = readUserName();
   const randomOperator = getOperator();
@@ -71,4 +71,9 @@ export const calc = () => {
     }
   }
   console.log(`Congratulations, ${userName}!`);
+};
+
+export const brainGcd = () => {
+  greetingInfo('Find the greatest common divisor of given numbers.');
+  const userName = readUserName();
 };
