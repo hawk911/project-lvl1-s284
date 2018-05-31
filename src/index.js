@@ -11,10 +11,10 @@ const greetingInfo = (info) => {
   console.log('Welcome to Brain Games!');
   console.log(info);
 };
-const lostInfo = (userName, answerUser, answerRight) =>{
+const lostInfo = (userName, answerUser, answerRight) => {
   console.log(`${answerUser} is wrong answer ;(. Correct answer was ${answerRight}.`);
   console.log(`Let's try again, ${userName}`);
-}
+};
 const getAnswer = (num1, num2, randomOperator) => {
   if (randomOperator === '+') {
     return num1 + num2;
