@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import { askNameAndReturnName } from '..';
+import { askName } from '..';
 
-askNameAndReturnName();
+askName();
