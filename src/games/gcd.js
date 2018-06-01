@@ -12,10 +12,10 @@ const gcdGame = () => {
   const num1 = getRandomInt(1, 50);
   const num2 = getRandomInt(1, 50);
   const question = `${num1} ${num2}`;
-  const rightAnswer = String(gcd(num1, num2));
+  const answerRight = String(gcd(num1, num2));
   return {
     question,
-    rightAnswer,
+    answerRight,
   };
 };
 export default () => gameEngine(gcdGame, task);

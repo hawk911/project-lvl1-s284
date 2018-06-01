@@ -21,10 +21,3 @@ export default (gameBrain, info) => {
   }
   console.log(`Congratulations, ${userName}!`);
 };
-/*
-export const askName = () => {
-  console.log('Welcome to the Brain Games!');
-  const userName = readUserName();
-  console.log(`Hello ${userName}!\n`);
-};
-*/
