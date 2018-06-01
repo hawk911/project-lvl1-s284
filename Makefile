@@ -1,8 +1,8 @@
 install:
 	npm install
 
-hello:
-	npm run babel-node -- 'src/bin/brain-games.js'
+gcd:
+	npm run babel-node -- 'src/bin/brain-gcd.js'
 
 even:
 	npm run babel-node -- 'src/bin/brain-even.js'
