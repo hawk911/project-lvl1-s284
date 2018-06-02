@@ -10,6 +10,9 @@ even:
 calc:
 	npm run babel-node -- 'src/bin/brain-calc.js'
 
+balance:
+	npm run babel-node -- 'src/bin/brain-balance.js'
+
 publish:
 	npm publish
 

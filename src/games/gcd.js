@@ -1,4 +1,4 @@
-import gameEngine from '..';
+import brainGames from '..';
 import getRandomInt from '../common';
 
 const gcd = (num1, num2) => {
@@ -18,4 +18,4 @@ const gcdGame = () => {
     rigthAnswer,
   };
 };
-export default () => gameEngine(gcdGame, task);
+export default () => brainGames(gcdGame, task);
