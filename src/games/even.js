@@ -1,5 +1,5 @@
 import brainGames from '..';
-import getRandomInt from '../common';
+import { getRandomInt } from '../common';
 
 const info = 'Answer "yes" if number even otherwise answer "no".';
 const isEven = num => num % 2 === 0;

@@ -1,5 +1,5 @@
 import brainGames from '..';
-import getRandomInt from '../common';
+import { getRandomInt } from '../common';
 
 const gcd = (num1, num2) => {
   if (num2 === 0) {

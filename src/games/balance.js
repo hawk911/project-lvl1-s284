@@ -1,5 +1,5 @@
 import brainGames from '..';
-import getRandomInt from '../common';
+import { getRandomInt } from '../common';
 
 const info = 'Balance the given number.';
 const arrOfNumbers = num => ((String(num)).split('')).map(item => Number(item));
